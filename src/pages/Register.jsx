@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import GoogleIcon from "../assets/icons/GoogleIcon";
+import { useAuthContext } from "../context/Auth.Context";
 
 const Register = () => {
+const {createUser} = useAuthContext()
+
   const [info, setİnfo] = useState({
     firstname: "",
     lastName: "",
