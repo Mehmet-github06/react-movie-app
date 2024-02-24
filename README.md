@@ -1,7 +1,7 @@
 # Movie App
 
 <div align="center">
-  <img src="./src/assets/images/movie.gif" />
+  <img src="./src/assets/Animation.gif" />
 </div>
 
 ## About the Project
